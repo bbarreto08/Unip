@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:tag="layout/layout_loading_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gif_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" app:layout_heightPercent="70.00001%" app:layout_aspectRatio="100.0%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/social_loading" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="12.0%" />
+</android.support.percent.PercentRelativeLayout>

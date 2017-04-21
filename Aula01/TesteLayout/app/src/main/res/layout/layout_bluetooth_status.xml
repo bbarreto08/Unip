@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bluetooth_status_img" android:src="@drawable/nav_icon_bluetooth" style="@style/top_bar_img" />
+</android.support.percent.PercentRelativeLayout>

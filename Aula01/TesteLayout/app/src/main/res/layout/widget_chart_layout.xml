@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="BUTTON" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentLeft="true" app:layout_heightPercent="8.899999%" app:layout_marginLeftPercent="2.4999976%" app:layout_marginTopPercent="3.6000013%" app:layout_marginRightPercent="2.4999976%" app:layout_marginBottomPercent="1.8000007%" />
+    <android.support.percent.PercentRelativeLayout android:id="@id/layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_marginLeftPercent="2.4999976%" app:layout_marginRightPercent="2.4999976%" app:layout_marginBottomPercent="4.999995%">
+        <cc.makeblock.makeblock.customview.panel.ChartView android:id="@id/chartView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

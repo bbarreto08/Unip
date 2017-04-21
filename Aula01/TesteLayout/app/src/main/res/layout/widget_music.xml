@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/control_widget_music" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentLeft="true" app:layout_heightPercent="10.399998%" app:layout_marginLeftPercent="2.9999971%" app:layout_marginTopPercent="5.2999973%" app:layout_marginRightPercent="1.9999981%" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_marginLeftPercent="2.9999971%" app:layout_marginTopPercent="20.000004%" app:layout_marginRightPercent="2.9999971%">
+        <ImageView android:id="@id/key_do" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_do" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_re" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_re" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_mi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_mi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_fa" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_fa" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_sol" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_sol" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_la" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_la" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/key_si" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/widget_selector_music_si" android:adjustViewBounds="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.percent.PercentRelativeLayout>

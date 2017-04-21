@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:orientation="horizontal" android:id="@id/nav_bar" android:background="@drawable/nav_bg_nav_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="@fraction/top_bar_height">
+        <android.support.percent.PercentRelativeLayout android:id="@id/group_nav_back" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:layout_widthPercent="5.9999943%" app:layout_marginLeftPercent="0.99999905%">
+            <ImageView android:src="@drawable/nav_icon_back" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <android.support.percent.PercentRelativeLayout android:id="@id/group_nav_close" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:layout_widthPercent="5.9999943%" app:layout_marginLeftPercent="7.0000052%">
+            <ImageView android:src="@drawable/nav_icon_group_close" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/color_text_white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/social_community" android:layout_centerInParent="true" app:layout_heightPercent="50.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <WebView android:id="@id/group_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/nav_bar" />
+    <android.support.percent.PercentRelativeLayout android:id="@id/connect_layout" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/nav_bar" app:layout_marginTopPercent="0.99999905%">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/gif_image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" app:layout_heightPercent="39.999996%" app:layout_marginTopPercent="20.000004%" app:layout_aspectRatio="100.0%" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/social_loading" android:layout_centerHorizontal="true" app:layout_widthPercent="50.0%" app:layout_heightPercent="4.999995%" app:layout_marginTopPercent="63.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:id="@id/connect_fail_layout" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/nav_bar">
+        <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_group_connect_failed" android:layout_centerHorizontal="true" app:layout_heightPercent="29.999996%" app:layout_marginTopPercent="27.999996%" app:layout_aspectRatio="100.0%" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff5d5d5d" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/social_net_error_tip" app:layout_heightPercent="3.9999962%" app:layout_marginTopPercent="65.0%" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="#ff32befc" android:gravity="center_horizontal" android:id="@id/retry" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/social_retry" android:layout_centerHorizontal="true" app:layout_widthPercent="20.000004%" app:layout_heightPercent="5.9999943%" app:layout_marginTopPercent="75.0%" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

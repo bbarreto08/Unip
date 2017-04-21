@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_airblock_video" android:layout_centerHorizontal="true" app:layout_widthPercent="65.67%" app:layout_marginTopPercent="11.459994%" app:layout_aspectRatio="183.29773%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/akon_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/airblock_how_control" android:layout_centerHorizontal="true" app:layout_widthPercent="70.00001%" app:layout_heightPercent="5.4999948%" app:layout_marginTopPercent="55.000008%" />
+    <android.support.percent.PercentFrameLayout android:id="@id/button_enter_tutorial" android:background="@drawable/bg_shape_tutorial_button" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" app:layout_heightPercent="10.000002%" app:layout_marginTopPercent="70.3%" app:layout_aspectRatio="350.0%">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/airblock_hint_video_tutorial" app:layout_heightPercent="50.0%" />
+    </android.support.percent.PercentFrameLayout>
+</android.support.percent.PercentRelativeLayout>

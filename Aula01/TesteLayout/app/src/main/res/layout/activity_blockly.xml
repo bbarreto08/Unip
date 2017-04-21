@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:tag="layout/activity_blockly_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/blockly_webview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <android.support.percent.PercentRelativeLayout android:tag="binding_1" android:layout_alignParentLeft="true" style="@style/top_bar_img_layout">
+            <ImageView android:src="@drawable/nav_icon_back" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <cc.makeblock.makeblock.customview.BluetoothStatusView style="@style/top_bar_bluetooth_view" />
+    </android.support.percent.PercentRelativeLayout>
+    <cc.makeblock.makeblock.customview.cell.CellLayout android:id="@id/blockly_invisible_celllayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cell_width_count="@integer/cell_width_count" app:cell_height_count="@integer/cell_height_count" app:layout_marginTopPercent="@fraction/top_bar_height" />
+    <cc.makeblock.makeblock.customview.BlocklyWidgetLayout android:id="@id/blockly_widget_layout" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:layout_marginBottomPercent="10.000002%" />
+</android.support.percent.PercentRelativeLayout>

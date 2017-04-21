@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="project_board_array">
+        <item>@string/project_Neuron</item>
+        <item>@string/project_mCore</item>
+        <item>@string/project_MeOrion</item>
+        <item>@string/project_MeAuriga</item>
+        <item>@string/project_MegaPi</item>
+    </string-array>
+    <string-array name="project_device_array">
+        <item>@string/project_Airblock</item>
+        <item>@string/project_mBot</item>
+        <item>@string/project_StarterUltimate</item>
+        <item>@string/project_mBotRanger</item>
+        <item>@string/project_Ultimate2</item>
+    </string-array>
+</resources>

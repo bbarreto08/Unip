@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="语音模块" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentLeft="true" app:layout_heightPercent="10.399998%" app:layout_marginLeftPercent="4.999995%" app:layout_marginTopPercent="8.299994%" app:layout_marginRightPercent="4.999995%" />
+    <ImageView android:id="@id/widget_speaker_question_mark" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/icon_widget_question_mark" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:layout_heightPercent="12.0%" app:layout_marginTopPercent="7.500005%" app:layout_marginRightPercent="7.500005%" app:layout_aspectRatio="100.0%" />
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_heightPercent="60.000004%" app:layout_marginLeftPercent="14.999998%" app:layout_marginRightPercent="14.999998%">
+        <ImageView android:id="@id/widget_speaker_image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_bg_speaker_outter_on" />
+        <ImageView android:id="@id/widget_speaker_image_rotate_a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_image_speaker_rotate_a" />
+        <ImageView android:id="@id/widget_speaker_image_rotate_b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_image_speaker_rotate_b" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_bg_speaker_inner" />
+        <ImageView android:id="@id/widget_speaker_mic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_image_speaker_mic_on" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gzsll.jsbridge.WVJBWebView android:id="@id/firmware_update_webview" android:layout_width="1.0px" android:layout_height="1.0px" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff414d59" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="固件升级" app:layout_heightPercent="14.999998%" app:layout_marginTopPercent="14.999998%" />
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="13.0%" app:layout_marginTopPercent="50.0%">
+        <ProgressBar android:id="@id/firmware_update_progress" android:layout_width="0.0dip" android:layout_height="fill_parent" android:indeterminateOnly="false" android:progressDrawable="@drawable/shape_progress_bar_color" android:layout_centerVertical="true" app:layout_widthPercent="65.0%" app:layout_heightPercent="70.00001%" app:layout_marginLeftPercent="13.0%" style="?android:attr/progressBarStyleHorizontal" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff1dbc9c" android:gravity="right" android:id="@id/firmware_update_progress_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0%" android:layout_toRightOf="@id/firmware_update_progress" app:layout_widthPercent="35.000004%" />
+    </android.support.percent.PercentRelativeLayout>
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff414d59" android:gravity="center" android:id="@id/firmware_update_text" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="点这儿开始刷固件" android:layout_alignParentBottom="true" app:layout_heightPercent="10.000002%" app:layout_marginBottomPercent="14.999998%" />
+</android.support.percent.PercentRelativeLayout>

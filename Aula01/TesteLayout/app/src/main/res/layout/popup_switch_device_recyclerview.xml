@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:id="@id/devices_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/shape_device_list_shadow_line" android:layout_alignParentBottom="true" app:layout_heightPercent="2.789998%" />
+</android.support.percent.PercentRelativeLayout>

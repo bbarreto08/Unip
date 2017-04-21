@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="25.0dip">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/devices_list_text_color" android:gravity="center_vertical" android:id="@id/list_item_device_name" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerVertical="true" app:layout_widthPercent="50.0%" app:layout_heightPercent="50.0%" app:layout_marginLeftPercent="16.999996%" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/devices_list_text_color" android:gravity="center|right" android:id="@id/list_item_device_distance" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_widthPercent="20.000004%" app:layout_heightPercent="50.0%" app:layout_marginRightPercent="15.999996%" />
+    </android.support.percent.PercentRelativeLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/nav_bg_nav_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="@fraction/top_bar_height">
+        <android.support.percent.PercentRelativeLayout android:id="@id/search_layout_left" android:layout_alignParentLeft="true" style="@style/top_bar_img_layout">
+            <ImageView android:src="@drawable/nav_icon_back" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <include style="@style/online_group_icon" layout="@layout/online_group_icon" />
+        <android.support.percent.PercentRelativeLayout android:id="@id/search_layout_right" android:layout_alignParentRight="true" style="@style/top_bar_img_layout">
+            <ImageView android:id="@id/search_img_right" android:src="@drawable/nav_icon_help" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <ImageView android:src="@drawable/image_search_bar_logo" app:layout_aspectRatio="621.9971%" style="@style/top_bar_img" />
+    </android.support.percent.PercentRelativeLayout>
+    <cc.makeblock.makeblock.customview.BluetoothSearchView android:id="@id/search_reLayout_devices" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_marginTopPercent="@fraction/top_bar_height" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="@dimen/search_textSize_PS" android:textColor="#ff0599d9" android:gravity="center_horizontal" android:id="@id/search_textView_PS" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ble_is_not_enable" android:includeFontPadding="false" app:layout_heightPercent="4.999995%" app:layout_marginTopPercent="85.0%" />
+</android.support.percent.PercentFrameLayout>

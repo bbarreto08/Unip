@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/bg_shape_popup" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" app:layout_widthPercent="90.0%" app:layout_heightPercent="90.0%">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/project_firm_unrecognize" android:layout_centerHorizontal="true" app:layout_heightPercent="7.0000052%" app:layout_marginTopPercent="10.000002%" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_board_unidentified" android:layout_centerHorizontal="true" app:layout_widthPercent="25.0%" app:layout_marginTopPercent="27.999996%" app:layout_aspectRatio="100.0%" />
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:textSize="100.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/hint_text_first" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/project_firm_unrecognize_detail" android:layout_centerHorizontal="true" app:layout_widthPercent="70.00001%" app:layout_heightPercent="16.999996%" app:layout_marginTopPercent="70.00001%" />
+    </android.support.percent.PercentRelativeLayout>
+    <ImageView android:id="@id/popup_close" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nav_selector_popup_close" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:layout_heightPercent="14.999998%" app:layout_aspectRatio="100.0%" />
+</android.support.percent.PercentRelativeLayout>

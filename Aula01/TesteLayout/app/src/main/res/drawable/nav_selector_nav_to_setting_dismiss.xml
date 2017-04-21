@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/nav_icon_nav_to_setting_dismiss_pre" />
+    <item android:drawable="@drawable/nav_icon_nav_to_setting_dismiss_nor" />
+</selector>

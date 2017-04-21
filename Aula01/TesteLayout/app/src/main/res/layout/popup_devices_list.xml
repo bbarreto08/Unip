@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.makeblock.makeblock.customview.PercentLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.PercentLinearLayout android:orientation="vertical" android:background="@drawable/bg_image_devices_list_grey" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="82.00001%">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/devices_list_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ble_select_device" app:layout_heightPercent="9.000004%" app:layout_marginTopPercent="10.000002%" app:layout_marginBottomPercent="8.000004%" />
+        <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/connect_devices_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/image_loading" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" android:layout_centerHorizontal="true" app:layout_heightPercent="55.000008%" app:layout_aspectRatio="104.76074%" />
+        </android.support.percent.PercentRelativeLayout>
+    </cc.makeblock.makeblock.customview.PercentLinearLayout>
+    <android.support.percent.PercentFrameLayout android:id="@id/connect_refresh_list" android:background="@drawable/bg_image_devices_list_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/color_refresh_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ble_refresh_list" app:layout_heightPercent="50.0%" app:layout_marginTopPercent="25.0%" />
+    </android.support.percent.PercentFrameLayout>
+</cc.makeblock.makeblock.customview.PercentLinearLayout>

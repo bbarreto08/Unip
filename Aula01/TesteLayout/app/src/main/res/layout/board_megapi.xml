@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/image_board_megapi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_number_5" app:layout_marginLeftPercent="3.2999992%" app:port="\ 5" app:port_filter="gyb" app:slot="\ 0" style="@style/port_select.megapi.num" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_number_6" app:layout_marginLeftPercent="21.000004%" app:port="\ 6" app:port_filter="ybwk" app:slot="\ 0" style="@style/port_select.megapi.num" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_number_7" app:layout_marginLeftPercent="38.5%" app:port="\ 7" app:port_filter="ybwk" app:slot="\ 0" style="@style/port_select.megapi.num" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_number_8" app:layout_marginLeftPercent="56.000008%" app:port="\ 8" app:port_filter="ybwk" app:slot="\ 0" style="@style/port_select.megapi.num" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_motor_port_4" app:layout_marginLeftPercent="24.0%" app:port="\ 4" style="@style/port_select.megapi.motor_port" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_motor_port_3" app:layout_marginLeftPercent="42.700005%" app:port="\ 3" style="@style/port_select.megapi.motor_port" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_motor_port_2" app:layout_marginLeftPercent="61.699997%" app:port="\ 2" style="@style/port_select.megapi.motor_port" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_motor_port_1" app:layout_marginLeftPercent="80.6%" app:port="\ 1" style="@style/port_select.megapi.motor_port" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_12" app:layout_marginLeftPercent="24.0%" app:port="\ 12" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_4" app:layout_marginLeftPercent="33.350002%" app:port="\ 4" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_11" app:layout_marginLeftPercent="42.799995%" app:port="\ 11" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_3" app:layout_marginLeftPercent="52.21%" app:port="\ 3" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_10" app:layout_marginLeftPercent="61.800003%" app:port="\ 10" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_2" app:layout_marginLeftPercent="71.14%" app:port="\ 2" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_9" app:layout_marginLeftPercent="80.6%" app:port="\ 9" style="@style/port_select.megapi.little_motor" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_megapi_little_motor_1" app:layout_marginLeftPercent="90.100006%" app:port="\ 1" style="@style/port_select.megapi.little_motor" />
+</android.support.percent.PercentRelativeLayout>

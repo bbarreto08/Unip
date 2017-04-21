@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff323c52" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/tut_start_play" android:layout_centerHorizontal="true" app:layout_heightPercent="5.9999943%" app:layout_marginTopPercent="8.000004%" />
+    <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_guide_page_4" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_heightPercent="62.950005%" app:layout_marginTopPercent="10.930002%" app:layout_marginBottomPercent="17.149998%" app:layout_aspectRatio="164.29749%" />
+</android.support.percent.PercentRelativeLayout>

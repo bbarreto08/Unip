@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/bg_image_popup_arrow_up_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ffd4d4d4" android:gravity="center" android:id="@id/tv_title1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/project_dismatch" app:layout_heightPercent="13.0%" app:layout_marginTopPercent="14.999998%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ffd4d4d4" android:gravity="center" android:id="@id/tv_title2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/project_not_behave_correctly" app:layout_heightPercent="9.000004%" app:layout_marginTopPercent="39.999996%" />
+    <View android:background="#ff555e69" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="90.0%" app:layout_heightPercent="0.49999952%" app:layout_marginBottomPercent="27.999996%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/color_text_yellow" android:gravity="center" android:id="@id/tv_title3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/project_connect_other_devices" android:layout_alignParentBottom="true" app:layout_heightPercent="11.000002%" app:layout_marginBottomPercent="8.500004%" />
+</android.support.percent.PercentRelativeLayout>

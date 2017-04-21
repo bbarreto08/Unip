@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout android:tag="layout/activity_panel_0" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.Android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:tag="binding_1" android:background="@drawable/nav_bg_nav_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="@fraction/top_bar_height">
+        <android.support.percent.PercentRelativeLayout android:tag="binding_2" android:layout_alignParentLeft="true" style="@style/top_bar_img_layout">
+            <ImageView android:src="@drawable/nav_icon_back" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <android.support.percent.PercentRelativeLayout android:id="@id/connect_layout_right" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:layout_widthPercent="5.9999943%" app:layout_marginLeftPercent="8.000004%">
+            <ImageView android:id="@id/connect_img_right" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nav_icon_help" android:layout_centerInParent="true" app:layout_heightPercent="50.0%" app:layout_aspectRatio="100.0%" />
+        </android.support.percent.PercentRelativeLayout>
+        <cc.makeblock.makeblock.customview.RadioLinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_shape_panel_play_edit_mode" android:padding="2.0px" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:layout_widthPercent="17.999994%" app:layout_heightPercent="63.0%">
+            <cc.makeblock.makeblock.customview.RadioLinearLayoutItem android:gravity="center" android:id="@id/mode_item_design" android:tag="binding_4" android:background="@drawable/selector_panel_mode_bg_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cc.makeblock.makeblock.customview.CheckableAutoResizeTextView android:textSize="40.0sp" android:textColor="@color/play_edit_mode_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/control_design" app:layout_heightPercent="70.00001%" />
+            </cc.makeblock.makeblock.customview.RadioLinearLayoutItem>
+            <cc.makeblock.makeblock.customview.RadioLinearLayoutItem android:gravity="center" android:id="@id/mode_item_play" android:tag="binding_5" android:background="@drawable/selector_panel_mode_bg_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cc.makeblock.makeblock.customview.CheckableAutoResizeTextView android:textSize="40.0sp" android:textColor="@color/play_edit_mode_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/control_play" app:layout_heightPercent="70.00001%" />
+            </cc.makeblock.makeblock.customview.RadioLinearLayoutItem>
+        </cc.makeblock.makeblock.customview.RadioLinearLayout>
+        <cc.makeblock.makeblock.customview.PercentLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nav_tv_formSelect_container" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="30.0dip" app:layout_marginLeftPercent="63.0%">
+            <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/white_with_transparency" android:id="@id/nav_tv_formSelect" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="0.0dip" android:lines="1" android:includeFontPadding="false" android:layout_centerInParent="true" app:layout_heightPercent="45.000004%" />
+            <ImageView android:id="@id/icon_mode_switch" android:tag="binding_8" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/selector_mode_switch_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/nav_tv_formSelect" app:layout_heightPercent="35.000004%" app:layout_aspectRatio="71.0%" />
+        </cc.makeblock.makeblock.customview.PercentLinearLayout>
+        <cc.makeblock.makeblock.customview.BluetoothStatusView style="@style/top_bar_bluetooth_view" />
+        <include style="@style/online_group_icon" layout="@layout/online_group_icon" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_marginTopPercent="@fraction/top_bar_height">
+        <cc.makeblock.makeblock.customview.cell.CellLayout android:id="@id/panel_cell_layout" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cell_width_count="@integer/cell_width_count" app:cell_height_count="@integer/cell_height_count" />
+        <cc.makeblock.makeblock.customview.PercentLinearLayout android:orientation="horizontal" android:id="@id/panel_linLayout_container" android:tag="binding_10" android:background="#ff2b2e34" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_widthPercent="@fraction/panel_left_tabpanel_width">
+            <android.support.percent.PercentRelativeLayout android:id="@id/relative_layout_tab" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="29.320002%" app:layout_heightPercent="87.0%" />
+            <ScrollView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/panel_linLayout_tap2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </ScrollView>
+        </cc.makeblock.makeblock.customview.PercentLinearLayout>
+        <ImageView android:id="@id/left_img_panel_visibility_img" android:tag="binding_11" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nav_selector_img_btn_operation" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" app:layout_widthPercent="5.369997%" app:layout_marginLeftPercent="1.9500017%" app:layout_marginBottomPercent="1.9500017%" app:layout_aspectRatio="100.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <cc.makeblock.makeblock.customview.HollowMaskLayout android:id="@id/panel_hollow_mask_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:background_color="@color/guide_bg_color">
+        <android.support.percent.PercentRelativeLayout android:id="@id/guide_choose_mode" android:background="@drawable/bg_image_guide_choose_mode" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" app:layout_heightPercent="29.999996%" app:layout_marginTopPercent="12.5%" app:layout_marginRightPercent="16.999996%" app:layout_aspectRatio="205.99976%">
+            <cc.makeblock.makeblock.customview.AutoResizeTextView android:textSize="50.0sp" android:textColor="#ff323c52" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/tut_switch_mode" android:lines="1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:layout_heightPercent="39.999996%" app:layout_marginLeftPercent="4.999995%" app:layout_marginRightPercent="4.999995%" />
+        </android.support.percent.PercentRelativeLayout>
+    </cc.makeblock.makeblock.customview.HollowMaskLayout>
+</android.support.percent.PercentFrameLayout>

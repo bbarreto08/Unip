@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <color android:color="@color/board_mask" />
+    </item>
+    <item android:state_selected="true" android:drawable="@drawable/bg_image_port_select_rect" />
+    <item android:state_pressed="true" android:drawable="@drawable/bg_image_port_select_rect" />
+    <item android:drawable="@android:color/transparent" />
+</selector>

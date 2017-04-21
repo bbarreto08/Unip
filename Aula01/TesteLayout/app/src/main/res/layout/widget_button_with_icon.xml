@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_selector_button" app:layout_marginTopPercent="10.000002%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_subTitle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="BUTTON" android:maxLines="1" android:includeFontPadding="false" android:layout_centerInParent="true" app:layout_widthPercent="50.0%" app:layout_heightPercent="25.0%" app:layout_marginTopPercent="35.000004%" app:layout_marginRightPercent="14.999998%" />
+</android.support.percent.PercentRelativeLayout>

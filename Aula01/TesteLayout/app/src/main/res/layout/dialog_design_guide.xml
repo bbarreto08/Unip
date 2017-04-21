@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/user_guide_viewpager" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" app:layout_heightPercent="88.89001%" app:layout_aspectRatio="139.59961%" />
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/view_pager_indicator" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignBottom="@id/user_guide_viewpager" app:strokeWidth="0.0dip" app:fillColor="#ff0599d9" app:pageColor="#ffbfc7d6" app:radius="3.0dip" app:gap="8.0dip" app:layout_heightPercent="4.999995%" app:layout_marginBottomPercent="3.9999962%" />
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff41c4fc" android:gravity="center" android:layout_gravity="center" android:id="@id/text_view_acknowledge" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/tut_got_it" android:layout_alignBottom="@id/user_guide_viewpager" android:layout_centerHorizontal="true" app:layout_widthPercent="14.999998%" app:layout_heightPercent="4.799998%" app:layout_marginBottomPercent="8.000004%" />
+</android.support.percent.PercentRelativeLayout>

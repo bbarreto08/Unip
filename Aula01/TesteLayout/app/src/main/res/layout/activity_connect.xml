@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.makeblock.makeblock.customview.PercentLinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/nav_bg_nav_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="@fraction/top_bar_height">
+        <android.support.percent.PercentRelativeLayout android:id="@id/connect_layout_left" android:layout_alignParentLeft="true" style="@style/top_bar_img_layout">
+            <ImageView android:src="@drawable/nav_icon_back" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <include layout="@layout/online_group_icon" style="@style/online_group_icon" />
+        <android.support.percent.PercentRelativeLayout android:id="@id/connect_layout_right" android:layout_alignParentRight="true" style="@style/top_bar_img_layout">
+            <ImageView android:id="@id/connect_img_right" android:src="@drawable/nav_icon_help" style="@style/top_bar_img" />
+        </android.support.percent.PercentRelativeLayout>
+        <ImageView android:src="@drawable/image_search_bar_logo" app:layout_aspectRatio="621.9971%" style="@style/top_bar_img" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.percent.PercentRelativeLayout android:id="@id/connect_step_1_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cc.makeblock.makeblock.customview.WaveView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_phone" android:layout_centerInParent="true" app:layout_heightPercent="46.875%" app:layout_aspectRatio="57.778%" />
+            <ImageView android:id="@id/connect_step_2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/icon_connect_makeblock_robot" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_heightPercent="11.849999%" app:layout_marginRightPercent="22.819996%" app:layout_aspectRatio="97.23%" />
+            <android.support.percent.PercentRelativeLayout android:id="@id/connect_step_0_img" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:layout_widthPercent="8.000004%" app:layout_marginBottomPercent="0.99999905%" app:layout_aspectRatio="100.0%">
+                <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nav_selector_connect_list" android:layout_centerInParent="true" app:layout_widthPercent="60.000004%" app:layout_aspectRatio="100.0%" />
+            </android.support.percent.PercentRelativeLayout>
+        </android.support.percent.PercentRelativeLayout>
+        <android.support.percent.PercentRelativeLayout android:id="@id/connect_step_3_4_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_phone" android:layout_centerVertical="true" app:layout_heightPercent="46.875%" app:layout_marginLeftPercent="26.909996%" app:layout_aspectRatio="57.778%" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/icon_connect_makeblock_robot" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_heightPercent="16.67%" app:layout_marginRightPercent="22.819996%" app:layout_aspectRatio="97.23%" />
+            <android.support.percent.PercentFrameLayout android:id="@id/connect_step_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cc.makeblock.makeblock.customview.AlphaAnimationImageView android:id="@id/connect_step_3_dot0" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_dot" app:sleep_time="3500" app:period_time="400" app:delay_time="100" app:layout_heightPercent="2.3000002%" app:layout_marginLeftPercent="50.0%" app:layout_marginTopPercent="50.0%" app:layout_aspectRatio="100.0%" />
+                <cc.makeblock.makeblock.customview.AlphaAnimationImageView android:id="@id/connect_step_3_dot1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_dot" app:sleep_time="3000" app:period_time="400" app:delay_time="600" app:layout_heightPercent="2.3000002%" app:layout_marginLeftPercent="52.0%" app:layout_marginTopPercent="50.0%" app:layout_aspectRatio="100.0%" />
+                <cc.makeblock.makeblock.customview.AlphaAnimationImageView android:id="@id/connect_step_3_dot2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_dot" app:sleep_time="2500" app:period_time="400" app:delay_time="1100" app:layout_heightPercent="2.3000002%" app:layout_marginLeftPercent="53.999996%" app:layout_marginTopPercent="50.0%" app:layout_aspectRatio="100.0%" />
+                <cc.makeblock.makeblock.customview.AlphaAnimationImageView android:id="@id/connect_step_3_dot3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_dot" app:sleep_time="2000" app:period_time="400" app:delay_time="1600" app:layout_heightPercent="2.3000002%" app:layout_marginLeftPercent="56.000008%" app:layout_marginTopPercent="50.0%" app:layout_aspectRatio="100.0%" />
+                <cc.makeblock.makeblock.customview.AlphaAnimationImageView android:id="@id/connect_step_3_dot4" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_dot" app:sleep_time="1500" app:period_time="400" app:delay_time="2100" app:layout_heightPercent="2.3000002%" app:layout_marginLeftPercent="58.000004%" app:layout_marginTopPercent="50.0%" app:layout_aspectRatio="100.0%" />
+            </android.support.percent.PercentFrameLayout>
+            <android.support.percent.PercentFrameLayout android:id="@id/connect_step_4_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/connect_step_4_5_connect_img" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_connect" app:layout_heightPercent="8.000004%" app:layout_marginLeftPercent="52.0%" app:layout_marginTopPercent="46.000004%" app:layout_aspectRatio="143.19763%" />
+            </android.support.percent.PercentFrameLayout>
+        </android.support.percent.PercentRelativeLayout>
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="#ff0599d9" android:id="@id/connect_textView" android:layout_width="wrap_content" android:layout_height="0.0dip" android:includeFontPadding="false" android:layout_centerHorizontal="true" app:layout_heightPercent="4.999995%" app:layout_marginTopPercent="85.0%" />
+        <ImageView android:id="@id/connect_step_4_state_img" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_connect_status_connected" android:layout_toRightOf="@id/connect_textView" android:layout_alignTop="@id/connect_textView" app:layout_heightPercent="4.999995%" app:layout_marginLeftPercent="0.99999905%" app:layout_aspectRatio="133.99963%" />
+    </android.support.percent.PercentRelativeLayout>
+</cc.makeblock.makeblock.customview.PercentLinearLayout>

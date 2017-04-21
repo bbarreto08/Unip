@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.makeblock.makeblock.customview.PercentLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/bg_image_popup_select_port_title" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="11.720001%">
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:gravity="center|left" android:id="@id/port_select_cancel" android:text="@string/control_cancel" app:layout_marginLeftPercent="3.1999946%" style="@style/port_select.title_text" />
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:gravity="center" android:id="@id/port_select_title" android:layout_centerHorizontal="true" style="@style/port_select.title_text" />
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:gravity="center|right" android:id="@id/port_select_submit" android:text="@string/control_confirm" android:layout_alignParentRight="true" app:layout_marginRightPercent="3.1999946%" style="@style/port_select.title_text" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/bg_image_popup_select_port" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/select_port_slot" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="14.6399975%" app:layout_marginLeftPercent="7.0000052%" app:layout_marginTopPercent="19.500006%" app:layout_aspectRatio="55.048%" layout="@layout/board_slot" />
+        <include android:id="@id/select_port_board_me_auriga" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="68.50001%" app:layout_marginLeftPercent="16.499996%" app:layout_marginTopPercent="4.6300054%" app:layout_aspectRatio="139.60876%" layout="@layout/board_me_auriga" />
+        <include android:id="@id/select_port_board_orion" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="58.31001%" app:layout_marginLeftPercent="21.229994%" app:layout_marginTopPercent="11.259996%" app:layout_aspectRatio="132.94373%" layout="@layout/board_orion" />
+        <include android:id="@id/select_port_board_mcore" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="53.700005%" app:layout_marginLeftPercent="20.819998%" app:layout_marginTopPercent="7.7200055%" app:layout_aspectRatio="119.99817%" layout="@layout/board_mcore" />
+        <include android:id="@id/select_port_board_megapi" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_widthPercent="60.854996%" app:layout_marginLeftPercent="17.999994%" app:layout_marginTopPercent="9.710002%" app:layout_aspectRatio="137.51831%" layout="@layout/board_megapi" />
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:textSize="100.0sp" android:textColor="#ff7f7f7e" android:gravity="center" android:id="@id/port_select_board_name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:includeFontPadding="false" android:layout_alignParentBottom="true" app:layout_heightPercent="3.752005%" app:layout_marginBottomPercent="5.739999%" />
+    </android.support.percent.PercentRelativeLayout>
+</cc.makeblock.makeblock.customview.PercentLinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@color/blue_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon_logo" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/image_logo_splash_screen" android:layout_centerInParent="true" app:layout_widthPercent="27.999996%" app:layout_aspectRatio="342.37976%" />
+    <ImageView android:id="@id/ad_image" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <android.support.percent.PercentRelativeLayout android:id="@id/button_skip" android:background="@drawable/bg_selector_ad_skip" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:layout_heightPercent="12.0%" app:layout_marginTopPercent="4.4499993%" app:layout_marginRightPercent="2.4999976%" app:layout_aspectRatio="100.0%">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/ad_count_down_grey" android:gravity="center" android:id="@id/count_down_text" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_centerHorizontal="true" app:layout_heightPercent="60.000004%" app:layout_marginTopPercent="10.000002%" />
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/ad_skip_text_grey" android:gravity="center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/ad_skip" android:layout_centerHorizontal="true" app:layout_heightPercent="20.000004%" app:layout_marginTopPercent="65.0%" />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>

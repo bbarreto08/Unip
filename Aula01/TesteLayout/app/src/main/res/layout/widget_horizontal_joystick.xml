@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:tag="layout/widget_horizontal_joystick_0" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:id="@id/horizontal_joystick_real_layout" android:background="@drawable/widget_bg_horizontal_joystick" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:layout_widthPercent="91.85999%" app:layout_heightPercent="95.37001%">
+        <ImageView android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/widget_selector_horizontal_joystick_left" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:layout_heightPercent="33.210003%" app:layout_marginLeftPercent="0.0%" app:layout_aspectRatio="100.0%" />
+        <ImageView android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/widget_selector_horizontal_joystick_right" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_heightPercent="33.210003%" app:layout_marginRightPercent="0.0%" app:layout_aspectRatio="100.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <ImageView android:id="@id/horizontal_joystick_img" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/widget_selector_joystick_center" android:scaleType="fitCenter" android:layout_centerInParent="true" app:layout_heightPercent="90.0%" app:layout_aspectRatio="100.0%" />
+</android.support.percent.PercentRelativeLayout>

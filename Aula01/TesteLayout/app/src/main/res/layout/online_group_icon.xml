@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:id="@id/nav_group" android:tag="layout/online_group_icon_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/nav_icon_group" android:layout_centerInParent="true" app:layout_heightPercent="50.0%" app:layout_aspectRatio="100.0%" />
+</android.support.percent.PercentRelativeLayout>

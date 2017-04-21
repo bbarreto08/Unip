@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/ic_launcher" android:layout_centerHorizontal="true" app:layout_heightPercent="45.000004%" app:layout_marginTopPercent="14.999998%" app:layout_marginBottomPercent="10.000002%" app:layout_aspectRatio="100.0%" />
+    <cc.makeblock.makeblock.customview.AutoResizeTextView android:textSize="100.0sp" android:gravity="center" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="Move" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@id/img_icon" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" app:layout_heightPercent="20.000004%" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@drawable/image_board_slot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_slot_2" app:layout_marginLeftPercent="2.9000044%" app:slot="\ 2" style="@style/port_select.slot" />
+    <cc.makeblock.makeblock.customview.PortSelectItemView android:id="@id/board_slot_1" android:layout_alignParentRight="true" app:layout_marginRightPercent="4.2999983%" app:slot="\ 1" style="@style/port_select.slot" />
+</android.support.percent.PercentRelativeLayout>

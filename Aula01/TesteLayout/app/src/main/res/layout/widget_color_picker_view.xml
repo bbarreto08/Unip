@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:id="@id/relative_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cc.makeblock.makeblock.customview.FitHeightTextView android:textSize="100.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/control_widget_led_color" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentLeft="true" app:layout_heightPercent="7.0000052%" app:layout_marginLeftPercent="2.9999971%" app:layout_marginTopPercent="1.9999981%" app:layout_marginRightPercent="4.999995%" />
+    <FrameLayout android:id="@id/color_hoop_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:layout_marginTopPercent="22.000004%">
+        <ImageView android:id="@id/color_hoop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_image_color_hoop" android:adjustViewBounds="true" />
+    </FrameLayout>
+</android.support.percent.PercentRelativeLayout>

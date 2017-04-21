@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.percent.PercentRelativeLayout android:id="@id/layout_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_heightPercent="16.999996%">
+        <Button android:id="@id/btn_dismiss" android:background="@drawable/nav_selector_nav_to_setting_dismiss" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_heightPercent="70.00001%" app:layout_aspectRatio="100.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/bg_shape_nav_to_setting_gray" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/layout_top" app:layout_heightPercent="62.0%">
+        <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/black" android:gravity="center" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="连接说明" app:layout_heightPercent="16.999996%" app:layout_marginTopPercent="19.000006%" />
+        <cc.makeblock.makeblock.customview.AutoResizeTextView android:textSize="100.0sp" android:textColor="#ff414d59" android:gravity="center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/ble_2.0_need_pair" android:maxLines="3" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:layout_widthPercent="90.0%" app:layout_heightPercent="25.0%" app:layout_marginBottomPercent="25.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <android.support.percent.PercentRelativeLayout android:background="@drawable/bg_shape_nav_to_setting_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" app:layout_heightPercent="23.000002%">
+        <android.support.percent.PercentRelativeLayout android:id="@id/layout_cancel" android:background="@drawable/bg_selector_nav_to_setting_button_cancel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerVertical="true" app:layout_widthPercent="41.999996%" app:layout_heightPercent="60.000004%" app:layout_marginLeftPercent="6.5000057%">
+            <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/color_text_black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="稍后再说" android:layout_centerVertical="true" app:layout_heightPercent="60.000004%" />
+        </android.support.percent.PercentRelativeLayout>
+        <android.support.percent.PercentRelativeLayout android:id="@id/layout_ok" android:background="@drawable/bg_selector_nav_to_setting_button_confirm" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_widthPercent="41.999996%" app:layout_heightPercent="60.000004%" app:layout_marginRightPercent="6.5000057%">
+            <cc.makeblock.makeblock.customview.FitHeightTextView android:textColor="@color/color_text_white" android:gravity="center" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="前往连接" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:layout_heightPercent="60.000004%" />
+        </android.support.percent.PercentRelativeLayout>
+    </android.support.percent.PercentRelativeLayout>
+</android.support.percent.PercentRelativeLayout>
